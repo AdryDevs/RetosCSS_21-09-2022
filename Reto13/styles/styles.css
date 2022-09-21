@@ -6,17 +6,11 @@ body {
 }
 
 table {
-    border: 1px solid;
+    border: 3px solid;
     border-style: outset;
     width: 100vw;
     text-align: center;
     font-weight: bold;
-}
-
-th {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 td {

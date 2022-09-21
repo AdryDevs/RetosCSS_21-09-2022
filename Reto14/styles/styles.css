@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 14%;
+    vertical-align: middle;
+    display: inline-table;
+}
+
+div {
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+table {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid;
+    border-style: outset;
+    position: absolute;
+    z-index: 1;
+    width: 55vw;
+    background-color: rgb(255, 224, 145);
+}
+
+td {
+    background-color: rgb(255, 224, 145);
+    border: 1px solid;
+}
+
+th {
+    border: 1px solid;
+    background-color: white;
+}
+
+img {
+    z-index: -1;
+    width: 70vw;
+}
