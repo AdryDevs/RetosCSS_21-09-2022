@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+table {
+    border: 1px solid;
+    border-style: outset;
+    width: 100vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    border: 0.6px solid brown;
+}
+
+.celda1 {
+    background-color: rgb(157, 247, 67);
+}
+
+.celda2 {
+    background-color: aqua;
+    text-align: left;
+}
+
+.celda3 {
+    color: red;
+}
+
+.celda4 {
+    
+}
+
+.celda5 {
+    color: red;
+}
+
+.celda6 {
+    background-color: pink;
+    text-align: end;
+    vertical-align: bottom;
+}
+
+.celda7 {
+    
+}
+
+.celda8 {
+    color: red;
+}
