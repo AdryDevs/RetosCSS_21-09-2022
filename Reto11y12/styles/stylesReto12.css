@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+table {
+  border: 4px solid;
+  border-style: outset;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(3, 58, 3);
+  border: 1px solid blue;
+  color: rgb(178, 236, 178);
+  width: 130px;
+}
+
+td {
+  border: 1px solid blue;
+  background-color: rgb(178, 236, 178);
+  width: 115px;
+  text-align: center;
+}
+
+.segunda {
+  background-color: rgb(119, 184, 119);
+}
