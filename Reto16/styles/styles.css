@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+table {
+    border: 3px solid;
+    border-style: outset;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    background-color: rgb(226, 231, 182);
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.verde {
+    background-color: rgb(96, 131, 96);
+}
+
+.naranja {
+    background-color: rgb(243, 206, 136);
+}
+
+.amarillo {
+    background-color: rgb(245, 245, 136);
+}
