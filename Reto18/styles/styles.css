@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+}
+
+.anterior {
+    background-color: rgb(125, 190, 206);
+    height: 12.7%;
+    width: 30%;
+    border: 3px solid blue;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+.nubes {
+    background-image: url(../../material/f03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 10vh;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.mario {
+    background-image: url(../../material/f02.png);
+    background-size: 100%;
+    height: 12vh;
+    width: 100%;
+    position: absolute;
+}
+
+.suelo {
+    background-image: url(../../material/f01.png);
+    height: 1.5vh;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 41.3%;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.prueba {
+    background-color: rgb(125, 190, 206);
+    margin-top: 25px;
+    height: 45%;
+    width: 51%;
+    z-index: -1;
+    border: 3px solid blue;
+    position: relative;
+    display: grid;
+    margin-left: 35px;
+}
+
+.nubesPrueba {
+    background-image: url(../../material/f03.png);
+    height: 8vh;
+    width: 100%;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.marioPrueba {
+    background-image: url(../../material/f02.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 10px;
+    margin-top: 70.7%;
+}
+
+.sueloPrueba {
+    background-image: url(../../material/f01.png);
+    background-repeat: repeat-x;
+    margin-top: 93%;
+}
+
+.posterior {
+    background-color: rgb(125, 190, 206);
+    height: 12.7%;
+    width: 30%;
+    border: 3px solid blue;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    margin-top: 30px;
