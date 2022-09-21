@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    display: flex;
+    background-image: url(../../material/background.jpg);
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.main {
+    display: inline-flex;
+    
+}
+
+.A {
+    background-repeat: repeat;
+    background-image: url(../../material/ABCD.jpg);
+    width: 15%;
+    height: 20%;
+    text-align: center;  
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+.B {
+    width: 35%;
+    height: 20%;
+    text-align: center;  
+    border: 1px solid black;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Binterior {
+    background-repeat: repeat;
+    background-image: url(../../material/ABCD.jpg);
+    width: 80%;
+    height: 80%;
+}
+
+.C {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../../material/ABCD.jpg);
+    width: 15vw;
+    height: 20vh;
+    text-align: center;  
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+.D {
+    background-color: burlywood;
+    width: 15vw;
+    height: 20vh;
+    text-align: center;
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+.Dinterior {
+   width: 80%;
+   height: 80%;
+   background-image: url(../../material/ABCD.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+.E {
+    background-image: url(../../material/EF.jpg);
+    width: 15%;
+    height: 20%;
+    background-size: 100%;
+    text-align: center;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+}
+
+.F {
+    background-image: url(../../material/EF.jpg);
+    width: 15vw;
+    height: 20vh;
+    background-size: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Finterior{
+    b
+}
